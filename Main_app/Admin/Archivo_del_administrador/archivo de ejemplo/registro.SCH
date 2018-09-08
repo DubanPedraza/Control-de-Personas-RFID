@@ -1,0 +1,12 @@
+[registro]
+FileType=VARYING
+FileEncoding=AUTO
+Delimiter="
+Separator=,
+StartAtRow=2
+UseHeaderRow=1
+Field1=Nombres,CHAR,7,0,0
+Field2=Apellidos,CHAR,9,0,8
+Field3=Direccion,CHAR,12,0,18
+Field4=Celular,CHAR,9,0,31
+Field5=E-mail,CHAR,27,0,41

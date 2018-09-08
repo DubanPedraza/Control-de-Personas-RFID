@@ -1,0 +1,29 @@
+/*submenu*/
+ul, ol { list-style: none;}
+
+nav .menu > li{
+      float: left;
+}
+
+nav li a {
+  background:RGB(65, 178, 130);
+  border-radius: 50px;
+  color: #FFF;
+  text-decoration: none;
+  padding:5PX 10PX;
+  display: block;
+}
+nav > li {
+  float:left;
+}
+
+nav li ul {
+  display:none ;
+  position: absolute;
+  min-width: 122px
+
+}
+
+nav li:hover > ul {
+  display: block;
+}

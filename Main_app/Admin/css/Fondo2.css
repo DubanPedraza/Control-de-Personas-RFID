@@ -1,0 +1,8 @@
+body
+
+{background:  rgb(44,62,80) url(../Imagenes/Logo-grupo-opalo.jpg);
+   background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: top right;
+    background-attachment: fixed;
+  }

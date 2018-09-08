@@ -1,0 +1,62 @@
+*:before, *:after {margin:0; padding:0; outline:0; }
+
+.form-1-2 {
+	display: inline-block;
+	vertical-align: top;
+	width: 45.3%;
+	margin: 0 3% 0 0;
+	float:left;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="number"], textarea {
+    width: 85%;
+    height: 25px;
+    margin: 5px 5px 15px;
+    padding: 10px 1%;
+    font-size: 18px;
+   border: 2px solid #36c1c8;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+.tabla_datos{
+	width: 100%;
+	text-align: center;
+	}
+#datos{
+	border: 2px solid #15A3BD;
+	padding: 100px 0px;
+}
+
+.tabla_datos tr:nth-child(even){
+	background-color: #f1f1f1;
+
+}
+
+thead{
+	background-color: #1C94AA;
+	color: #fff;
+	font-weight: bold;
+}
+
+.tabla_datos tr  td{
+	padding: 5px 0;
+	width: 20%;
+}
+
+
+input[type="button"], input[type="reset"], input[type="submit"] {
+
+		border: 2px solid #36c1c8;
+    border-radius: 4px;
+    background: #ffffff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    line-height: 2;
+    padding: 8px 12px;
+		-webkit-transition: all .5s ease;
+		-o-transition: all .5s ease;
+    transition: all .5s ease;
+		margin: 5px 5px 5px 5px;
+		float:right;
+}
